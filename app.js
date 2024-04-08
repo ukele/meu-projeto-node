@@ -25,14 +25,21 @@ function initKeycloak() {
     }
 }
 
+// Adicionando um bloco de código para execução direta
+if (require.main === module) {
+    console.log('Alô Mundo');
+    initKeycloak();
+}
+
 module.exports = {
     initKeycloak,
     getKeycloak() {
         if (!_keycloak){
             console.error('Keycloak não foi inicializado!');
-        }else{
-            console.error('e porra');
+        } else {
+            console.log('Keycloak está inicializado.');
         }
         return _keycloak;
     }
 };
+
