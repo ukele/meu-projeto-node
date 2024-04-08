@@ -30,6 +30,9 @@ module.exports = {
     getKeycloak() {
         if (!_keycloak){
             console.error('Keycloak não foi inicializado!');
+        }else{
+            console.log('e agora');
+            console.error('e agora');
         }
         return _keycloak;
     }
