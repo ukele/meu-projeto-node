@@ -31,8 +31,7 @@ module.exports = {
         if (!_keycloak){
             console.error('Keycloak não foi inicializado!');
         }else{
-            console.log('e agora');
-            console.error('e agora');
+            console.error('e porra');
         }
         return _keycloak;
     }
