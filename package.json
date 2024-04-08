@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "express-session": "^1.18.0",
-    "keycloak-connect": "^24.0.2"
+    "keycloak-connect": "^24.0.2",
+    "node-fetch": "^3.3.2"
   }
 }
